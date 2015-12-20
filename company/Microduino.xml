@@ -2,8 +2,8 @@
 <script type="text/javascript" src="../../blocks/company/Microduino.js"></script>
 <script type="text/javascript" src="../../generators/arduino/company/Microduino.js"></script>
 
-<script type="text/javascript" src="../../blocks/company/Microduino/ws2812_Blocks.js"></script>
-<script type="text/javascript" src="../../generators/arduino/company/Microduino/ws2812_Arduino.js"></script>
+<script type="text/javascript" src="../../blocks/company/Microduino/colorLED_Blocks.js"></script>
+<script type="text/javascript" src="../../generators/arduino/company/Microduino/colorLED_Arduino.js"></script>
 
 
 <category id="catMicroduino" name="Microduino" colour="518">
