@@ -1,0 +1,67 @@
+<!-- type="company" block="block/Microduino.js" generator="generator/Microduino.js"  lib="" -->
+<script type="text/javascript" src="../../blocks/company/Microduino.js"></script>
+<script type="text/javascript" src="../../generators/arduino/company/Microduino.js"></script>
+
+<script type="text/javascript" src="../../blocks/company/Microduino/ws2812_Blocks.js"></script>
+<script type="text/javascript" src="../../generators/arduino/company/Microduino/ws2812_Arduino.js"></script>
+
+
+<category id="catMicroduino" name="Microduino" colour="518">
+	  <block type="group_lcd_begin">
+	  //pkj
+	  </block>
+	  <block type="group_lcd_print">
+		<value name="x">
+			<shadow type="math_number">
+				<field name="NUM">0</field>
+			</shadow>
+		</value>
+		<value name="y">
+			<shadow type="math_number">
+				<field name="NUM">20</field>
+			</shadow>
+		</value>
+		<value name="text">
+			<block type="text">
+				<field name="TEXT">hello Microduino</field>
+			</block>
+        </value>			
+	  </block>
+
+<!--ray add for ws2812-->
+	  <block type="ws2812Begin">
+	  	<value name="LEDNumber">
+			<shadow type="math_number">
+				<field name="NUM">1</field>
+			</shadow>
+		</value>
+		<value name="LEDPin">
+			<shadow type="math_number">
+				<field name="NUM">6</field>
+			</shadow>
+		</value>
+	  </block>
+
+	   <block type="ws2812Doing">
+	  	<value name="LEDIndex">
+			<shadow type="math_number">
+				<field name="NUM">0</field>
+			</shadow>
+		</value>
+		<value name="R">
+			<shadow type="math_number">
+				<field name="NUM">255</field>
+			</shadow>
+		</value>
+		<value name="G">
+			<shadow type="math_number">
+				<field name="NUM">255</field>
+			</shadow>
+		</value>
+		<value name="B">
+			<shadow type="math_number">
+				<field name="NUM">255</field>
+			</shadow>
+		</value>
+	  </block>
+</category>
