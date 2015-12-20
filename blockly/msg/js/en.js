@@ -695,6 +695,8 @@ var MSG = {
   catFun: "Functions",
   catSense: "Labplus(Box)",
   catSense2: "Labplus(Robot)",
+  catMicroduinoSensor: "Sensor",
+  catMicroduinoExtended: "Extended",
   tab_blocks: "Blocks",
   tab_arduino: "Code"
 };

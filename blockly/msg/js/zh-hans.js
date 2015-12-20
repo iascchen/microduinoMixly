@@ -695,6 +695,8 @@ var MSG = {
   catFun: "函数",
   catSense: "盛思(盒子)",
   catSense2: "盛思(机器人)",
+  catMicroduinoSensor: "传感器",
+  catMicroduinoExtended: "扩展模块",
   tab_blocks: "",
   tab_arduino: "代码"
 };

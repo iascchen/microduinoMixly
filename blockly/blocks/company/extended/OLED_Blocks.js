@@ -5,14 +5,16 @@ goog.provide('Blockly.Blocks.Microduino');
 goog.require('Blockly.Blocks');
 
 
-Blockly.Blocks.Microduino.HUE = 518;
+//Blockly.Blocks.Microduino.HUE = 120;
+Blockly.Blocks.Microduino.GRE = 120;
 
 
 Blockly.Blocks.group_lcd_begin = {
   init: function() {
 	var FLIP = [['none', 'undoRotation'],['90', 'setRot90'],['180', 'setRot180'],['270', 'setRot270']];
 
-    this.setColour(Blockly.Blocks.Microduino.HUE);
+    //this.setColour(Blockly.Blocks.Microduino.HUE);
+    this.setColour(Blockly.Blocks.Microduino.GRE);
     this.appendDummyInput("")
         .appendTitle("OLED-loop")
     this.appendDummyInput("")
@@ -30,7 +32,8 @@ Blockly.Blocks.group_lcd_print = {
   init: function() {
 	var TYPE = [['Small', 'u8g_font_chikitar'],['Middle', 'u8g_font_fixed_v0r'],['Large', 'u8g_font_7x13']];
 
-    this.setColour(Blockly.Blocks.Microduino.HUE);
+    // this.setColour(Blockly.Blocks.Microduino.HUE);
+    this.setColour(Blockly.Blocks.Microduino.GRE);
     this.appendDummyInput("")
         .appendTitle("OLED-print")
     this.appendDummyInput("")

@@ -1,0 +1,29 @@
+<!-- type="company" block="block/Microduino.js" generator="generator/Microduino.js"  lib="" -->
+<script type="text/javascript" src="../../blocks/company/extended/OLED_Blocks.js"></script>
+<script type="text/javascript" src="../../generators/arduino/company/extended/OLED_Arduino.js"></script>
+
+
+<!--<category id="catMicroduino" name="Microduino" colour="518">-->
+<category id="catMicroduinoExtended" colour="120">
+	  <block type="group_lcd_begin">
+	  //pkj
+	  </block>
+	  <block type="group_lcd_print">
+		<value name="x">
+			<shadow type="math_number">
+				<field name="NUM">0</field>
+			</shadow>
+		</value>
+		<value name="y">
+			<shadow type="math_number">
+				<field name="NUM">20</field>
+			</shadow>
+		</value>
+		<value name="text">
+			<block type="text">
+				<field name="TEXT">hello Microduino</field>
+			</block>
+        </value>			
+	  </block>
+
+</category>
