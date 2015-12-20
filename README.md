@@ -4,13 +4,13 @@ microduino图形化编程
 
 
 开发说明：
-company/Microduino.xml			左侧Microduino的block基本定义(block样式，输入值属性)
-blockly/blocks/company/Microduino.js	block的逻辑层
-blockly/generators/arduino/company/Microduino.js	        block的代码实现层
-blockly/msg/js/zh-hans.js		简体中文
-blockly/msg/js/zh-hant.js		繁体中文
-blockly/msg/js/en.js			英文
-blockly/media/Microduino		多媒体素材
+company/Microduino.xml			左侧Microduino的block基本定义(block样式，输入值属性)<br/>
+blockly/blocks/company/Microduino.js	block的逻辑层<br/>
+blockly/generators/arduino/company/Microduino.js	        block的代码实现层<br/>
+blockly/msg/js/zh-hans.js		简体中文<br/>
+blockly/msg/js/zh-hant.js		繁体中文<br/>
+blockly/msg/js/en.js			英文<br/>
+blockly/media/Microduino		多媒体素材<br/>
 
 Microduino模块及传感器分类(文件夹及文件命名，注意：命名区分大小写)：
 核心模块(文件夹命名：core)红色
