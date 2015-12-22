@@ -697,6 +697,9 @@ var MSG = {
   catSense2: "盛思(机器人)",
   catMicroduinoSensor: "传感器",
   catMicroduinoExtended: "扩展模块",
+  catMicroduinoCore: "核心模块",
+  catMicroduinoFunction: "功能模块",
+  catMicroduinoCommunication: "通讯模块",
   tab_blocks: "",
   tab_arduino: "代码"
 };
@@ -745,3 +748,17 @@ Blockly.ColorLEDIndex='彩灯号:';
 Blockly.ColorLEDRed='红:';
 Blockly.ColorLEDGreen='绿:';
 Blockly.ColorLEDBlue='蓝:';
+
+
+Blockly.ir_r_Init='红外接收初始化:';
+Blockly.CubeCar='Cube小车';
+Blockly.BLE_CubeCar='蓝牙小车';
+Blockly.BLE_AM2321='温湿度传感器';
+Blockly.BLE_Tem='温度';
+Blockly.BLE_Hum='湿度';
+Blockly.BLE_Hum_Tem='数据';
+Blockly.LKL_FORWARD='前进';
+Blockly.LKL_BACKWARD='后退';
+Blockly.LKL_TURNLEFT='左转';
+Blockly.LKL_TURNRIGHT='右转';
+Blockly.LKL_STOP='停止';

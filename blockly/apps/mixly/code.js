@@ -382,7 +382,8 @@ Code.initLanguage = function() {
   var categories = ['catInOut', 'catControl', 'catMath', 'catText', 'catLists',
                     'catLogic', 'catGroup','catStorage','catSensor','catActuator', 
                     'catVar','catFun','catSense','catSense2','catMicroduinoSensor',
-                    'catMicroduinoExtended'];
+                    'catMicroduinoExtended','catMicroduinoCore','catMicroduinoFunction',
+                    'catMicroduinoCommunication'];
   for (var i = 0, cat; cat = categories[i]; i++) {
     document.getElementById(cat).setAttribute('name', MSG[cat]);
   }

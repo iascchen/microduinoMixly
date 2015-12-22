@@ -697,6 +697,9 @@ var MSG = {
   catSense2: "Labplus(Robot)",
   catMicroduinoSensor: "Sensor",
   catMicroduinoExtended: "Extended",
+  catMicroduinoCore: "Core",
+  catMicroduinoFunction: "Function",
+  catMicroduinoCommunication: "Communication",
   tab_blocks: "Blocks",
   tab_arduino: "Code"
 };
@@ -746,3 +749,16 @@ Blockly.ColorLEDIndex='ColorLED Index:';
 Blockly.ColorLEDRed='Red:';
 Blockly.ColorLEDGreen='Green:';
 Blockly.ColorLEDBlue='Blue:';
+
+Blockly.ir_r_Init='ir receiver initialize:';
+Blockly.CubeCar='Cube Car';
+Blockly.BLE_CubeCar='BLE Car';
+Blockly.BLE_AM2321='Temperature&Humidity';
+Blockly.BLE_Tem='Temperature';
+Blockly.BLE_Hum='Humidity';
+Blockly.BLE_Hum_Tem='Data';
+Blockly.LKL_FORWARD='run forward';
+Blockly.LKL_BACKWARD='run backward';
+Blockly.LKL_TURNLEFT='turn left';
+Blockly.LKL_TURNRIGHT='turn right';
+Blockly.LKL_STOP='stop';

@@ -1,0 +1,20 @@
+<!-- type="company" block="block/Microduino.js" generator="generator/Microduino.js"  lib="" -->
+
+<script type="text/javascript" src="../../blocks/company/communication/BT_Blocks.js"></script>
+<script type="text/javascript" src="../../generators/arduino/company/communication/BT_Arduino.js"></script>
+
+
+<category id="catMicroduinoCommunication" colour="210">
+
+
+
+	<block type="controls_if">
+	    <value name="IF0">
+	        <block type="mCookie_bluetooth_available"></block>
+	    </value>
+	    <statement name="DO0"></statement>
+	</block>
+	<block type="mCookie_bluetooth_readString"></block>
+
+
+</category>

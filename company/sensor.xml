@@ -4,10 +4,16 @@
 <script type="text/javascript" src="../../generators/arduino/company/sensor/colorLED_Arduino.js"></script>
 
 
-<!--<category id="catMicroduino" name="Microduino" colour="518">-->
+<script type="text/javascript" src="../../blocks/company/sensor/IR_Receiver_Blocks.js"></script>
+<script type="text/javascript" src="../../generators/arduino/company/sensor/IR_Receiver_Arduino.js"></script>
+
+<script type="text/javascript" src="../../blocks/company/sensor/Tem_Hum_Blocks.js"></script>
+<script type="text/javascript" src="../../generators/arduino/company/sensor/Tem_Hum_Arduino.js"></script>
+
 <category id="catMicroduinoSensor" colour="518">
 
-<!--ray add for ws2812-->
+
+<!--colorLED-->
 	  <block type="ws2812Begin">
 	  	<value name="LEDNumber">
 			<shadow type="math_number">
@@ -43,4 +49,24 @@
 			</shadow>
 		</value>
 	  </block>
+
+
+<!--IR Reciver-->
+	<block type="Microduino_ir_remote_begin">
+	        <value name="Pin">
+	            <shadow type="math_number">
+	                <field name="NUM">6</field>
+	            </shadow>
+	        </value>
+	</block> 
+	<block type="controls_if">
+	    <value name="IF0">
+		<block type="Microduino_ir_remote"></block>       
+		    </value>
+		    <statement name="DO0"></statement>
+	</block>
+
+<!--TEMP HUM-->
+	<block type="mCookie_AM2321"></block>
+
 </category>

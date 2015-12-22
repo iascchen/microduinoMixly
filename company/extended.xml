@@ -2,9 +2,13 @@
 <script type="text/javascript" src="../../blocks/company/extended/OLED_Blocks.js"></script>
 <script type="text/javascript" src="../../generators/arduino/company/extended/OLED_Arduino.js"></script>
 
+<script type="text/javascript" src="../../blocks/company/extended/Motor_Blocks.js"></script>
+<script type="text/javascript" src="../../generators/arduino/company/extended/Motor_Arduino.js"></script>
 
-<!--<category id="catMicroduino" name="Microduino" colour="518">-->
 <category id="catMicroduinoExtended" colour="120">
+
+
+
 	  <block type="group_lcd_begin">
 	  //pkj
 	  </block>
@@ -25,5 +29,17 @@
 			</block>
         </value>			
 	  </block>
+
+
+
+	  <block type="mCookie_Motor">
+        <value name="speed">
+            <block type="math_number">
+                <field name="NUM">100</field>
+            </block>
+        </value>
+	</block>
+
+
 
 </category>

@@ -1,0 +1,77 @@
+<!-- type="company" block="block/Microduino.js" generator="generator/Microduino.js"  lib="" -->
+
+<script type="text/javascript" src="../../blocks/company/function/Audio_Blocks.js"></script>
+<script type="text/javascript" src="../../generators/arduino/company/function/Audio_Arduino.js"></script>
+
+<script type="text/javascript" src="../../blocks/company/function/RTC_Blocks.js"></script>
+<script type="text/javascript" src="../../generators/arduino/company/function/RTC_Arduino.js"></script>
+
+
+<category id="catMicroduinoFunction" colour="65">
+
+<!--audio模块-->
+	<block type="mCookie_Audio_Serial">
+	    <value name="Vol">
+	        <shadow type="math_number">
+	            <field name="NUM">20</field>
+	        </shadow>
+	    </value>
+	</block>
+	<block type="mCookie_Audio_Play"></block>
+	<block type="mCookie_Audio_Pose"></block>
+	<block type="mCookie_Audio_Next"></block>
+	<block type="mCookie_Audio_Prev"></block>
+	<block type="mCookie_Audio_VolUp"></block>
+	<block type="mCookie_Audio_VolDown"></block>
+
+<!--RTC模块-->
+	<block type="mCookie_RTC_set">
+	    <value name="Year">
+	        <block type="math_number">
+	            <field name="NUM">15</field>
+	        </block>
+	    </value>
+	    <value name="Mouth">
+	        <block type="math_number">
+	            <field name="NUM">10</field>
+	        </block>
+	    </value>
+	    <value name="Day">
+	        <block type="math_number">
+	            <field name="NUM">5</field>
+	        </block>
+	    </value>
+		<value name="Week">
+	        <block type="math_number">
+	            <field name="NUM">1</field>
+	        </block>
+	    </value>
+	    <value name="Hour">
+	        <block type="math_number">
+	            <field name="NUM">10</field>
+	        </block>
+	    </value>
+	    <value name="Minute">
+	        <block type="math_number">
+	            <field name="NUM">5</field>
+	        </block>
+	    </value>
+	    <value name="Second">
+	        <block type="math_number">
+	            <field name="NUM">0</field>
+	        </block>
+	    </value>
+	</block> 
+	<block type="mCookie_RTC_date"></block>
+	<block type="mCookie_RTC_time"></block>
+	<block type="mCookie_RTC_Week"></block>
+	<block type="mCookie_RTC_Hour"></block>
+	<block type="mCookie_RTC_Minute"></block>
+	<block type="mCookie_RTC_Second"></block>
+
+
+
+
+
+
+</category>
