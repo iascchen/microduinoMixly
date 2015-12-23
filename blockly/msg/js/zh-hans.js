@@ -762,3 +762,7 @@ Blockly.LKL_BACKWARD='后退';
 Blockly.LKL_TURNLEFT='左转';
 Blockly.LKL_TURNRIGHT='右转';
 Blockly.LKL_STOP='停止';
+
+Blockly.Buzzer='蜂鸣器';
+Blockly.BuzzerPin='蜂鸣器管脚';
+Blockly.Frequency='蜂鸣器频率';
