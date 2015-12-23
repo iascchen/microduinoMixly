@@ -762,3 +762,7 @@ Blockly.LKL_BACKWARD='run backward';
 Blockly.LKL_TURNLEFT='turn left';
 Blockly.LKL_TURNRIGHT='turn right';
 Blockly.LKL_STOP='stop';
+
+Blockly.Buzzer='Buzzer';
+Blockly.BuzzerPin='BuzzerPin:';
+Blockly.Frequency='Frequency:';

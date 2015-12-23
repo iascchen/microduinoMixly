@@ -7,6 +7,11 @@
 <script type="text/javascript" src="../../blocks/company/sensor/IR_Receiver_Blocks.js"></script>
 <script type="text/javascript" src="../../generators/arduino/company/sensor/IR_Receiver_Arduino.js"></script>
 
+<script type="text/javascript" src="../../blocks/company/sensor/Buzzer_Blocks.js"></script>
+<script type="text/javascript" src="../../generators/arduino/company/sensor/Buzzer_Arduino.js"></script>
+
+
+
 <script type="text/javascript" src="../../blocks/company/sensor/Tem_Hum_Blocks.js"></script>
 <script type="text/javascript" src="../../generators/arduino/company/sensor/Tem_Hum_Arduino.js"></script>
 
@@ -68,5 +73,18 @@
 
 <!--TEMP HUM-->
 	<block type="mCookie_AM2321"></block>
-
+	
+<!--BUZZER-->
+	<block type="Buzzer">
+		<value name="BuzzerPin">
+			<shadow type="math_number">
+				<field name="NUM">6</field>
+			</shadow>
+		</value>
+		<value name="Frequency">
+			<shadow type="math_number">
+				<field name="NUM">200</field>
+			</shadow>
+		</value>
+	</block>
 </category>
