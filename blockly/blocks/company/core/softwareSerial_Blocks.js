@@ -5,7 +5,9 @@ goog.provide('Blockly.Blocks.Microduino');
 goog.require('Blockly.Blocks');
 
 
-Blockly.Blocks.Microduino.RED = 20;
+Blockly.Blocks.Microduino.HUE=20;
+
+//Blockly.Blocks.core.softwareSerial_Blocks.RED=20;
 
 
 
@@ -16,7 +18,8 @@ ray add for ws2812
 
 Blockly.Blocks.ws2812Begin = {
   init: function() {
-    this.setColour(Blockly.Blocks.Microduino.RED);
+    //this.setColour(Blockly.Blocks.Microduino.RED);
+    this.setColour(Blockly.Blocks.Microduino.HUE);
 
     this.appendDummyInput("")
         .appendTitle(Blockly.ColorLEDInit)
@@ -45,7 +48,8 @@ Blockly.Blocks.ws2812Doing = {
   init: function() {
     //var FLIP = [['none', 'undoRotation'],['90', 'setRot90'],['180', 'setRot180'],['270', 'setRot270']];
 
-    this.setColour(Blockly.Blocks.Microduino.RED);
+    //this.setColour(Blockly.Blocks.Microduino.RED);
+    this.setColour(Blockly.Blocks.Microduino.HUE);
 
 
     this.appendDummyInput("")
