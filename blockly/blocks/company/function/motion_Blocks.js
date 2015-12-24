@@ -13,17 +13,8 @@ Blockly.Blocks.motionBegin = {
     this.setColour(Blockly.Blocks.Microduino.HUE);
 
     this.appendDummyInput("")
-        .appendTitle(Blockly.ColorLEDInit)
-        .appendField(new Blockly.FieldImage("../../media/Microduino/colorLEDBegin.png", 80, 32))
-
-    // this.appendValueInput("LEDNumber", Number)
-    //     .setCheck(Number)
-    //     .setAlign(Blockly.ALIGN_RIGHT)
-    //     .appendTitle(Blockly.ColorLEDNumber);
-    // this.appendValueInput("LEDPin", Number)
-    //     .setCheck(Number)
-    //     .setAlign(Blockly.ALIGN_RIGHT)
-    //     .appendTitle(Blockly.ColorLEDPin);
+        .appendTitle(Blockly.motionInit)
+        .appendField(new Blockly.FieldImage("../../media/Microduino/motion.png", 63, 70))
 
     //this.appendStatementInput('DO')
     this.setPreviousStatement(true, null);
@@ -101,32 +92,6 @@ Blockly.Blocks.tabSpace = {
   }
 };
 
-// Blockly.Blocks.ax = {
-//   init: function() {
-//     this.setColour(Blockly.Blocks.Microduino.HUE);
-
-//     this.appendDummyInput("")
-//         .appendTitle("ax")
-
-//         //.appendField(new Blockly.FieldImage("../../media/Microduino/colorLEDBegin.png", 80, 32))
-
-//     // this.appendValueInput("LEDNumber", Number)
-//     //     .setCheck(Number)
-//     //     .setAlign(Blockly.ALIGN_RIGHT)
-//     //     .appendTitle(Blockly.ColorLEDNumber);
-//     // this.appendValueInput("LEDPin", Number)
-//     //     .setCheck(Number)
-//     //     .setAlign(Blockly.ALIGN_RIGHT)
-//     //     .appendTitle(Blockly.ColorLEDPin);
-
-//     //this.appendStatementInput('DO')
-//     // this.setPreviousStatement(true, null);
-//     // this.setNextStatement(true, null);
-// //    this.setTooltip("test");  
-//     //this.setInputsInline(true);
-//     },
-// };
-
 
 
 Blockly.Blocks.motionDoing = {
@@ -137,8 +102,8 @@ Blockly.Blocks.motionDoing = {
 
 
     this.appendDummyInput("")
-        .appendTitle("Motion:")
-        .appendField(new Blockly.FieldImage("../../media/Microduino/colorLEDCntrol.png", 40, 32))
+        .appendTitle(Blockly.motionDo)
+        .appendField(new Blockly.FieldImage("../../media/Microduino/motion.png", 63, 70))
 
     this.appendValueInput("ax", String)
         .setCheck(String)
@@ -173,6 +138,6 @@ Blockly.Blocks.motionDoing = {
     this.setPreviousStatement(true, null);
     this.setNextStatement(true, null);
 //    this.setTooltip("test");  
-    this.setInputsInline(true);
+    //this.setInputsInline(true);
     },
 };

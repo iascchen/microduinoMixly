@@ -26,7 +26,7 @@ Blockly.Blocks.serialBegin = {
 
     this.appendDummyInput("")
         .appendTitle(Blockly.serialSetup)
-        .appendField(new Blockly.FieldImage("../../media/Microduino/colorLEDCntrol.png", 40, 32))
+        .appendField(new Blockly.FieldImage("../../media/Microduino/mCookie_CoreUSB.jpg", 40, 32))
         .appendField(new Blockly.FieldDropdown(FLIP), 'FLIP')
 
 
@@ -45,11 +45,8 @@ Blockly.Blocks.serialPrint = {
     //this.setColour(Blockly.Blocks.Microduino.RED);
     this.setColour(Blockly.Blocks.Microduino.HUE);
     
-
     this.appendDummyInput("")
-        .appendTitle(Blockly.ColorLEDControl)
-        .appendField(new Blockly.FieldImage("../../media/Microduino/colorLEDCntrol.png", 40, 32))
-
+        .appendTitle(Blockly.serialPrint)
 
     this.appendValueInput("serialData")
     //this.appendStatementInput('DO')

@@ -767,6 +767,8 @@ Blockly.Buzzer='蜂鸣器';
 Blockly.BuzzerPin='蜂鸣器管脚';
 Blockly.Frequency='蜂鸣器频率';
 
+Blockly.motionInit='姿态模块初始化:';
+Blockly.motionDo='姿态模块:';
 
 Blockly.accX='加速度 X:';
 Blockly.accY='加速度 Y:';
@@ -777,6 +779,7 @@ Blockly.gyroZ='角速度 Z:';
 Blockly.tabSpace='间隔';
 
 Blockly.serialSetup='串口波特率:';
+Blockly.serialPrint='串口输出:';
 
 Blockly.Zigbee='Zigbee模块';
 Blockly.Zigbee_SetAT='AT调试用';

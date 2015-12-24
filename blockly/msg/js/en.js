@@ -768,6 +768,9 @@ Blockly.BuzzerPin='BuzzerPin:';
 Blockly.Frequency='Frequency:';
 
 
+Blockly.motionInit='Motion Init:';
+Blockly.motionDo='Motion:';
+
 Blockly.accX='Accel X:';
 Blockly.accY='Accel Y:';
 Blockly.accZ='Accel Z:';
@@ -777,6 +780,7 @@ Blockly.gyroZ='gyro Z:';
 Blockly.tabSpace='tab';
 
 Blockly.serialSetup='Serial baud:';
+Blockly.serialPrint='Serial Print';
 
 Blockly.Zigbee='Zigbee';
 Blockly.Zigbee_SetAT='For AT';
