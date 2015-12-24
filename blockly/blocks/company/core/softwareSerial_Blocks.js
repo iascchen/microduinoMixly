@@ -10,12 +10,6 @@ Blockly.Blocks.Microduino.HUE=20;
 //Blockly.Blocks.core.softwareSerial_Blocks.RED=20;
 
 
-
-/*****
-ray add for ws2812
-****/
-
-
 Blockly.Blocks.ws2812Begin = {
   init: function() {
     //this.setColour(Blockly.Blocks.Microduino.RED);

@@ -8,12 +8,6 @@ goog.require('Blockly.Blocks');
 Blockly.Blocks.Microduino.HUE = 518;
 
 
-
-/*****
-ray add for ws2812
-****/
-
-
 Blockly.Blocks.ws2812Begin = {
   init: function() {
     this.setColour(Blockly.Blocks.Microduino.HUE);

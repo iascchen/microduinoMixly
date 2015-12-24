@@ -1,20 +1,26 @@
-#include <Adafruit_NeoPixel.h>
+#include "Wire.h"
+#include "I2Cdev.h"
+#include "MPU6050.h"
 
-long i;
-
-Adafruit_NeoPixel strip = Adafruit_NeoPixel(1, 6, NEO_GRB + NEO_KHZ800);
+MPU6050 accelgyro;
+int16_t ax;
+int16_t ay;
+int16_t az;
+int16_t gx;
+int16_t gy;
+int16_t gz;
 void setup()
 {
-  strip.begin();
-  strip.show();
+  Wire.begin();
+  Serial.println("Initializing I2C devices...");
+  accelgyro.initialize();
+  Serial.println("Testing device connections...");
+  Serial.println(accelgyro.testConnection() ? "MPU6050 connection successful" : "MPU6050 connection failed");
 }
 
 
 void loop()
 {
-  for (i = 0; i <= 10; i = i + (1)) {
-    strip.setPixelColor(i-1, strip.Color(255, 255, 255));
-    strip.show();
-  }
+  accelgyro.getMotion6(&ax, &ay, &az, &gx, &gy, &gz);
 
 }

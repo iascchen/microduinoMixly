@@ -766,3 +766,13 @@ Blockly.LKL_STOP='stop';
 Blockly.Buzzer='Buzzer';
 Blockly.BuzzerPin='BuzzerPin:';
 Blockly.Frequency='Frequency:';
+
+Blockly.accX='Accel X:';
+Blockly.accY='Accel Y:';
+Blockly.accZ='Accel Z:';
+Blockly.gyroX='gyro X:';
+Blockly.gyroY='gyro Y:';
+Blockly.gyroZ='gyro Z:';
+Blockly.tabSpace='tab';
+
+Blockly.serialSetup='Serial baud:';

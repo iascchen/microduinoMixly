@@ -1,46 +1,15 @@
 <!-- type="company" block="block/Microduino.js" generator="generator/Microduino.js"  lib="" -->
 
-<script type="text/javascript" src="../../blocks/company/core/softwareSerial_Blocks.js"></script>
-<script type="text/javascript" src="../../generators/arduino/company/core/softwareSerial_Arduino.js"></script>
+<script type="text/javascript" src="../../blocks/company/core/serial_Blocks.js"></script>
+<script type="text/javascript" src="../../generators/arduino/company/core/serial_Arduino.js"></script>
 
 
 <category id="catMicroduinoCore" colour="1">
 
-
-	  <block type="ws2812Begin">
-	  	<value name="LEDNumber">
-			<shadow type="math_number">
-				<field name="NUM">1</field>
-			</shadow>
-		</value>
-		<value name="LEDPin">
-			<shadow type="math_number">
-				<field name="NUM">6</field>
-			</shadow>
-		</value>
+	  <block type="serialBegin">
 	  </block>
 
-	   <block type="ws2812Doing">
-	  	<value name="LEDIndex">
-			<shadow type="math_number">
-				<field name="NUM">0</field>
-			</shadow>
-		</value>
-		<value name="R">
-			<shadow type="math_number">
-				<field name="NUM">255</field>
-			</shadow>
-		</value>
-		<value name="G">
-			<shadow type="math_number">
-				<field name="NUM">255</field>
-			</shadow>
-		</value>
-		<value name="B">
-			<shadow type="math_number">
-				<field name="NUM">255</field>
-			</shadow>
-		</value>
+	   <block type="serialPrint">
 	  </block>
 
 </category>

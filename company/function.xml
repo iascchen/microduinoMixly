@@ -6,8 +6,65 @@
 <script type="text/javascript" src="../../blocks/company/function/RTC_Blocks.js"></script>
 <script type="text/javascript" src="../../generators/arduino/company/function/RTC_Arduino.js"></script>
 
+<script type="text/javascript" src="../../blocks/company/function/motion_Blocks.js"></script>
+<script type="text/javascript" src="../../generators/arduino/company/function/motion_Arduino.js"></script>
 
 <category id="catMicroduinoFunction" colour="65">
+
+
+
+<!--Motion模块-->
+	<block type="motionBegin"></block>
+
+
+	<block type="accX">
+	</block>
+	<block type="accY">
+	</block>
+	<block type="accZ">
+	</block>
+	<block type="gyroX">
+	</block>
+	<block type="gyroY">
+	</block>
+	<block type="gyroZ">
+	</block>
+
+	<block type="tabSpace">
+	</block>
+
+   <block type="motionDoing">
+  	<value name="ax">
+		<block type="accX">
+		</block>
+	</value>
+  	<value name="ay">
+		<block type="accY">
+		</block>
+	</value>
+  	<value name="az">
+		<block type="accZ">
+		</block>
+	</value>
+  	<value name="gx">
+		<block type="gyroX">
+		</block>
+	</value>
+  	<value name="gy">
+		<block type="gyroY">
+		</block>
+	</value>
+  	<value name="gz">
+		<block type="gyroZ">
+		</block>
+	</value>
+
+  </block>
+
+
+
+
+
 
 <!--audio模块-->
 	<block type="mCookie_Audio_Serial">
@@ -68,9 +125,6 @@
 	<block type="mCookie_RTC_Hour"></block>
 	<block type="mCookie_RTC_Minute"></block>
 	<block type="mCookie_RTC_Second"></block>
-
-
-
 
 
 
