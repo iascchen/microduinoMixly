@@ -3,6 +3,8 @@
 <script type="text/javascript" src="../../blocks/company/communication/BT_Blocks.js"></script>
 <script type="text/javascript" src="../../generators/arduino/company/communication/BT_Arduino.js"></script>
 
+<script type="text/javascript" src="../../blocks/company/communication/Zigbee_Blocks.js"></script>
+<script type="text/javascript" src="../../generators/arduino/company/communication/Zigbee_Arduino.js"></script>
 
 <category id="catMicroduinoCommunication" colour="210">
 
@@ -17,4 +19,36 @@
 	<block type="mCookie_bluetooth_readString"></block>
 
 
+	
+<!--Zigbee-->
+	<block type="Zigbee_AT">
+	</block>
+
+	<block type="Zigbee_Send">
+		<value name="text">
+			<block type="text">
+				<field name="TEXT">hello Microduino</field>
+			</block>
+        </value>			
+	</block>
+
+	<block type="Zigbee_Read">
+	</block>
+
+	<block type="controls_if">
+	    <value name="IF0">
+	        <block type="Zigbee_Available"></block>
+	    </value>
+	    <statement name="DO0"></statement>
+	</block>
+
+	
+	<block type="VariableIs">
+				<value name="VariableIs">
+						<block type="text">
+							<field name="VariableIs">AA</field>
+						</block>
+      			</value>		
+			
+	</block>
 </category>

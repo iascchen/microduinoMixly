@@ -767,6 +767,7 @@ Blockly.Buzzer='Buzzer';
 Blockly.BuzzerPin='BuzzerPin:';
 Blockly.Frequency='Frequency:';
 
+
 Blockly.accX='Accel X:';
 Blockly.accY='Accel Y:';
 Blockly.accZ='Accel Z:';
@@ -776,3 +777,12 @@ Blockly.gyroZ='gyro Z:';
 Blockly.tabSpace='tab';
 
 Blockly.serialSetup='Serial baud:';
+
+Blockly.Zigbee='Zigbee';
+Blockly.Zigbee_SetAT='For AT';
+Blockly.Zigbee_Available='Available?';
+Blockly.Zigbee_Read='Read';
+Blockly.Zigbee_Send='Send';
+Blockly.VariableName='Variable';
+Blockly.VariableIs='is?';
+
