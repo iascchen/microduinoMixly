@@ -766,3 +766,11 @@ Blockly.LKL_STOP='停止';
 Blockly.Buzzer='蜂鸣器';
 Blockly.BuzzerPin='蜂鸣器管脚';
 Blockly.Frequency='蜂鸣器频率';
+
+Blockly.Zigbee='Zigbee模块';
+Blockly.Zigbee_SetAT='AT调试用';
+Blockly.Zigbee_Available='有信息传入?';
+Blockly.Zigbee_Read='读取';
+Blockly.Zigbee_Send='发送';
+Blockly.VariableName='变量';
+Blockly.VariableIs='是这个吗?';

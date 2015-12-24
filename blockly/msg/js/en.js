@@ -766,3 +766,11 @@ Blockly.LKL_STOP='stop';
 Blockly.Buzzer='Buzzer';
 Blockly.BuzzerPin='BuzzerPin:';
 Blockly.Frequency='Frequency:';
+
+Blockly.Zigbee='Zigbee';
+Blockly.Zigbee_SetAT='For AT';
+Blockly.Zigbee_Available='Available?';
+Blockly.Zigbee_Read='Read';
+Blockly.Zigbee_Send='Send';
+Blockly.VariableName='Variable';
+Blockly.VariableIs='is?';
